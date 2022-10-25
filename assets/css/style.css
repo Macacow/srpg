@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #111111;
+}
+
+.container {
+	width: 80%;
+	height: 80vh;
+	display: flex;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.pc-image {
+	width: 33%;
+	justify-content: center;
+	align-items: center;
+}
+
+.pc-image img {
+	width: 100%;
+}
+
+.general-infos {
+	width: 46%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #222222;
+	padding: 1rem;
+}
+
+.general-infos-header {
+	display: flex;
+	justify-content: center;
+}
+
+.general-infos-header h1{
+	font-size: 4rem;
+	font-weight: 600;
+	color: white;
+}
+
+.pc-infos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+.info-box {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.info-box input {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	padding: 0.8rem 1.2rem;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px, #00001c;
+}
+
+.info-box label {
+	font-size: 2rem;
+	color: white;
+	font-weight: 400;
+}
+
+.expertises {
+	width: 21%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.expertise {
+	display: flex;
+	align-items: center;
+}
+
+.expertises h6 {
+	font-size: 2rem;
+	color: white;
+}
+
+.expertise input {
+	margin-right: 0.4rem;
+}
+
+.expertise label {
+	font-size: 2rem;
+	font-weight: 300;
+	color: white;
+}
